@@ -10,7 +10,7 @@
 
       - name: Choose the version of Harbor to install
         prompt: "harbor_version"
-        default: "v1.10.2"
+        default: "v2.0.0"
         private: no
 
       - name: Supply credentials for Harbor's admin level access
